@@ -1,0 +1,64 @@
+.svg-180-rotate {
+    transform: rotateY(140deg);
+    width: 40px;
+}
+
+.svg-content {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    align-items: flex-start;
+    margin-top: 100px;
+
+}
+
+
+.svg-box {
+    height: 358px;
+    /* border:1px solid black; */
+    margin: 10px;
+    position: relative;
+}
+
+.box-one-btn {
+    padding: 15px 30px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #D7282F;
+    border: none;
+    outline: none;
+}
+
+.svg-box h3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #250606;
+}
+
+.svg-box p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3E4145;
+}
+
+
+@media (max-width: 768px) {
+    .svg-180-rotate {
+        transform: rotateY(140deg);
+        width: 75px;
+    }
+}
+
+
+@media (max-width: 512px) {
+    .svg-180-rotate {
+        display: none;
+    }
+}

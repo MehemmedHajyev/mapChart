@@ -1,0 +1,217 @@
+.brends-container h3 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 39.6px;
+    text-align: center;
+    color: #290707;
+}
+
+.brends-section {
+    background: #F6F2EE;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.brends-container p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    word-break: break-all;
+    width: 100%;
+    color: #3C3F45;
+    /* background-color: red; */
+}
+
+
+/* .brends-container-slider {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+} */
+
+.brends-container-slider-item {
+    background: #FFFFFF;
+    padding: 20px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 180px;
+    margin: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.brends-container-slider-item {
+    position: relative;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* .brends-container-slider-item:hover {
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+} */
+
+.brends-container-slider-item::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #D7282F; */
+    z-index: 0;
+    transition: top 0.5s ease;
+}
+
+.brends-container-slider-item:hover::before {
+    top: 0;
+    /* Kırmızı arka plan yukarıdan aşağıya doğru gelir */
+}
+
+.brends-container-slider-item span {
+    position: relative;
+    z-index: 1;
+    transition: color 0.4s ease;
+}
+
+.brends-container-slider-item:hover span {
+    color: white;
+    /* Hover sırasında metin rengi beyaza dönüşür */
+}
+
+
+
+.brends-container {
+    position: relative;
+    max-width: 1360px;
+    margin: 50px auto;
+}
+
+.custom-prev-btn,
+.custom-next-btn {
+    background: #FFFFFF;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    /* padding: 10px 20px; */
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    /* Butonları slider öğelerinin üstünde göstermek için yüksek z-index */
+    opacity: 0.8;
+    /* Hafif şeffaflık */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-prev-btn svg stroke,
+.custom-next-btn svg stroke {
+    fill: #D7282F;
+}
+
+
+.custom-prev-btn {
+    left: 10px;
+    /* Sol tarafa yerleştir */
+}
+
+.custom-next-btn {
+    right: 10px;
+    /* Sağ tarafa yerleştir */
+}
+
+.custom-prev-btn:hover,
+.custom-next-btn:hover {
+    background-color: #D7282F;
+    opacity: 1;
+    fill: #D7282F
+        /* Hover'da tam opak yap */
+}
+
+
+.brends-container-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: auto;
+    background-color: #FFFFFF;
+    /* Arka plan rengi */
+    color: #250606;
+    /* Yazı rengi */
+    font-family: 'Inter', sans-serif;
+    /* Yazı fontu */
+    font-size: 16px;
+    font-weight: 700;
+    /* Kalın yazı stili */
+    line-height: 26px;
+    /* Satır yüksekliği */
+    text-align: center;
+    /* Yazıyı ortala */
+    padding: 16px 20px;
+    /* İçerik boşluğu */
+    margin-top: 90px;
+    /* Üstten boşluk */
+    border: none;
+    /* Kenar çerçevesi yok */
+    /* border-radius: 8px; */
+    /* Yuvarlak köşeler */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Gölge efekti */
+    cursor: pointer;
+    /* İmleç işareti değişimi */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Geçiş efektleri */
+}
+
+.brends-container-button:hover {
+    background-color: #D7282F;
+    /* Hover rengi */
+    color: #FFFFFF;
+    /* Hover'da yazı rengi */
+    transform: scale(1.05);
+    /* Hover'da büyüme efekti */
+}
+
+
+
+.arrow-dxl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1280px) {
+    .custom-prev-btn {
+        display: none;
+        /* Sol tarafa yerleştir */
+    }
+
+    .custom-next-btn {
+        display: none;
+        /* right: 10px; */
+        /* Sağ tarafa yerleştir */
+    }
+}

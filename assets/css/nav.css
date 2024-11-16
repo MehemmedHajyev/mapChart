@@ -1,0 +1,1533 @@
+body {
+    background-color: red;
+}
+
+@media only screen and (max-width: 1400px) {
+    .home-media-list {
+        right: 100px;
+        bottom: 0;
+    }
+
+    .home-for,
+    .home-size-for {
+        height: 80vh !important;
+    }
+
+    .for-vol {
+        height: 80vh !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .grid-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .header-content-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .header-content-container,
+    .partniyorlar-container,
+    .cap-cards-container,
+    .product-details-container,
+    .isci-container,
+    .one-section {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+
+    .partniyorlar-container {
+        gap: 40px;
+    }
+
+    .respnn {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nav-list {
+        /* transition: all .5s ease-in-out; */
+        gap: 51px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .abisolid h2 {
+        font-size: 61px;
+    }
+
+    .abisolid p {
+        font-size: 29px;
+    }
+
+    .home-for,
+    .home-size-for {
+        height: 90vh !important;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .header-bottom-content h1 {
+        font-family: "montserrat";
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 70px;
+    }
+
+    .nav-list {
+        gap: 38px;
+    }
+
+    .header-bottom-content p {
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 39px;
+        color: #ffffff;
+        max-width: 746px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .isci-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 30px;
+        max-width: 1170px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .sub-sub-menu,
+    .sub-sub-menu-sports {
+        top: 110%;
+        left: 0;
+    }
+
+    .for-log-out {
+        display: block;
+    }
+
+    .right-arrow {
+        border-right: 3px solid var(---nav-list-li-a-color);
+        height: 3px;
+        border-radius: 10px;
+        right: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        top: 104%;
+    }
+
+    .home-media-list {
+        right: 100px;
+        top: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: unset;
+        left: 40%;
+        gap: 15px;
+        margin-bottom: -10px;
+    }
+
+    .top-img img {
+        margin-top: -120px;
+        margin-bottom: 40px;
+    }
+
+    .close-btnn {
+        display: block !important;
+    }
+
+    .footer-list {
+        padding-top: 20px;
+    }
+
+    .footer-main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .footer-list {
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 20;
+        height: 100vh;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        top: 0;
+        padding: 20px;
+        text-align: start;
+        left: -9999px;
+        line-height: 40px;
+        padding-top: 60px;
+        /* transition: all .5s ease-in-out; */
+
+        background: #000f43;
+        background: linear-gradient(180deg, #000f43 0%) rgba(0, 14, 61, 0.44) 100%;
+    }
+
+    .header-logo-container {
+        display: flex;
+        justify-content: end;
+    }
+
+    .responsive-bars {
+        display: block;
+    }
+
+
+
+    .contact-us {
+        margin-bottom: 20px;
+    }
+
+    .number-one {
+        margin-bottom: 20px;
+    }
+
+    .product-details-container {
+        grid-template-columns: 12fr;
+    }
+
+    .top-img {
+        max-width: 670px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top-img img {
+        max-width: 670px !important;
+    }
+
+    .one-section,
+    .home-pages-footbol-formalari {
+        margin-bottom: 10px;
+        /* margin-top: 50px; */
+    }
+
+
+}
+
+
+
+@media (max-width:991px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-content-container {
+        padding-top: 0px
+    }
+
+    .bx-menu {
+        font-size: 20px;
+        margin-top: -17px;
+        color: var(---nav-list-li-a-color);
+    }
+
+    .bx-menu {
+        display: block;
+    }
+
+    nav .navbar {
+        max-width: 100%;
+        padding: 0 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar .bx-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .navbar .links li .sub-menu a,
+    .navbar .links li .sub-menu2 a {
+        color: var(---nav-list-li-a-color);
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    nav .navbar .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: block;
+        max-width: 270px;
+        width: 100%;
+        background: var(---body-color);
+        line-height: 40px;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.5s ease;
+        z-index: 99999;
+    }
+
+    .navbar .links li .sub-menu,
+    .navbar .links li .sub-menu2 {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        line-height: 40px;
+        background: inherit !important;
+        border-radius: 1px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        border-radius: 0 0 4px 4px;
+        display: none;
+        z-index: 2;
+    }
+
+    .navbar .nav-links .sidebar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sidebar-logo .logo-name {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .sidebar-logo i,
+    .navbar .bx-menu {
+        font-size: 40px;
+        color: #fff;
+        float: left;
+    }
+
+    nav .navbar .links {
+        display: block;
+        margin-top: 20px;
+    }
+
+    nav .navbar .links li .arrow,
+    .arrow2 {
+        line-height: 40px;
+        color: var(---nav-list-li-a-color) !important;
+    }
+
+    nav .navbar .links li {
+        display: block;
+    }
+
+    nav .navbar .links li .sub-menu,
+    .navbar .links li .sub-menu {
+        position: relative;
+        top: 0;
+        box-shadow: none;
+        display: none;
+    }
+
+    nav .navbar .links li .sub-menu li {
+        border-bottom: none;
+
+    }
+
+    .navbar .links li .sub-menu .more-sub-menu {
+        display: none;
+        position: relative;
+        left: 0;
+    }
+
+    .navbar .links li .sub-menu .more-sub-menu2 {
+        display: none;
+        position: relative;
+        left: 0;
+    }
+
+    .navbar .links li .sub-menu .more-sub-menu li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .links li .sub-menu .more-sub-menu2 li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .links li:hover .htmlcss-arrow,
+    .links li:hover .js-arrow {
+        transform: rotate(0deg);
+    }
+
+    .navbar .links li .sub-menu .more-sub-menu {
+        display: none;
+    }
+
+    .navbar .links li .sub-menu .more-sub-menu2 {
+        display: none;
+    }
+
+
+    .navbar .links li .sub-menu .more span {
+        display: flex;
+        align-items: center;
+        max-width: 100px;
+    }
+
+    .links li .sub-menu .more:hover .more-sub-menu {
+        display: none;
+    }
+
+    .links li .sub-menu .more:hover .more-sub-menu2 {
+        display: none;
+    }
+
+    nav .navbar .links li:hover .htmlCss-sub-menu,
+    nav .navbar .links li:hover .js-sub-menu {
+        display: none;
+
+    }
+
+    .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+    .navbar .nav-links.show3 .links .js-sub-menu,
+    .navbar .nav-links.show2 .links .more .more-sub-menu {
+        display: block;
+    }
+
+    .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+    .navbar .nav-links.show3 .links .js-sub-menu,
+    .navbar .nav-links.show4 .links .more .more-sub-menu2 {
+        display: block;
+    }
+
+
+    .navbar .nav-links.show1 .links .htmlcss-arrow,
+    .navbar .nav-links.show3 .links .js-arrow {
+        transform: rotate(180deg);
+    }
+
+    .navbar .nav-links.show2 .links .more-arrow {
+        transform: rotate(180deg);
+    }
+
+    .navbar .nav-links.show4 .links .more-arrow2 {
+        transform: rotate(180deg);
+    }
+
+
+
+    .navbar .nav-links.show4 .links .more-arrow2 {
+        transform: rotate(180deg);
+    }
+
+    .mm-in {
+        padding: 19px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:920px) {
+
+
+    nav .navbar .logo a {
+        font-size: 27px;
+    }
+
+    nav .navbar .links li {
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+    nav .navbar .links li a {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 913px) {
+
+    .home-for {
+        height: 50vh !important;
+    }
+
+    .home-size-for,
+    .for-vol,
+    .two-section-img {
+        height: 50vh !important;
+    }
+
+    .isci-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 30px;
+        max-width: 1170px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+
+
+    .partniyorlar-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 40px;
+    }
+
+    .partniyor-card {
+        min-width: 280px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .df-jk {
+        display: block;
+        line-height: 40px;
+    }
+
+    .p-t {
+        height: 10vh;
+    }
+
+    .submit-btnn {
+        display: flex;
+        float: none;
+        align-items: center;
+        justify-content: inherit;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* .submit-btnn .btn {
+        width: 85%;
+    } */
+
+    .teklif-desc {
+        margin-bottom: 20px;
+        margin-top: 90px;
+        font-family: "montserrat";
+        font-size: 30px !important;
+        font-weight: 400;
+        line-height: 3 0px !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 830px) {
+    .home-for {
+        height: 50vh !important;
+    }
+
+    .home-size-for {
+        height: 40vh !important;
+    }
+
+    .top-img {
+        margin-bottom: -100px;
+        margin-top: -100px;
+    }
+
+    .two-section-img,
+    .for-vol {
+        height: 50vh !important;
+    }
+
+    .two-section-img,
+    .for-vol {
+        height: 50vh;
+    }
+
+    .header-logo-container {
+        width: 152px !important;
+    }
+
+    .header-logo-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .abisolid-vol {
+        position: absolute !important;
+        color: #f2f2f2;
+        left: 100px;
+        top: 150px;
+    }
+
+    .abisolid-vol h2 {
+        font-family: "montserrat";
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+        max-width: 323px;
+    }
+
+    .abisolid-log {
+        padding-top: 100px;
+    }
+
+    .home-media-list {
+        left: 36% !important;
+
+        margin-bottom: -86px !important;
+    }
+
+    .for-val {
+        margin-top: 50px !important;
+    }
+
+    .header-footbol-content {
+        left: 40px;
+    }
+
+    .for-val h1 {
+        font-size: 41px;
+        color: var(---nav-list-li-a-color);
+        margin-bottom: 0px;
+        line-height: 41px;
+    }
+
+    .for-val p {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 19px;
+        color: var(---nav-list-li-a-color);
+    }
+
+    .header-head-container {
+        height: 45vh !important;
+    }
+
+
+    .one-section,
+    .home-pages-footbol-formalari {
+        margin-bottom: 10px;
+    }
+
+    .fr-for {
+        margin-top: 0 !important;
+    }
+
+    .home-pages-footbol-formalari h2 {
+        margin-top: 30px;
+    }
+
+    .top-img img {
+        margin-bottom: -40px;
+    }
+
+    .home-media-list {
+        top: 70%;
+    }
+
+
+}
+
+@media only screen and (max-width: 778px) {
+    .header-bottom-content h1 {
+        font-size: 50px;
+        max-width: 900px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .about-header {
+        height: 40vh;
+    }
+
+    .about-img {
+        height: 40vh !important;
+    }
+
+    .cap-header-text h3 {
+        font-size: 41px;
+        padding-bottom: 20px;
+    }
+
+    .main-header-text p {
+        font-size: 27px;
+    }
+
+    .cap-home {
+        height: 40vh;
+    }
+
+    .header-bottom-content p {
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 39px;
+        color: #ffffff;
+        max-width: 746px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 770px) {
+    .abisolid h2 {
+        font-size: 41px;
+    }
+
+    .abisolid p {
+        font-size: 19px;
+    }
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .top-img {
+        max-width: 470px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top-img img {
+        max-width: 470px !important;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .cap-header-text h3 {
+        font-size: 31px;
+        padding-bottom: 10px;
+    }
+
+
+    .home-size-for {
+        height: 90vh !important;
+
+    }
+
+    .home-for {
+        height: 89vh !important;
+    }
+
+    .two-section-img,
+    .for-vol {
+        height: 70vh !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .mm-li-active {
+            padding: 16px !important;
+        }
+
+        .mm {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .home-pages-footbol-formalari h2 {
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-inner-container h1 {
+            font-family: "montserrat";
+            font-size: 40px;
+            font-weight: 400;
+            color: var(---nav-list-li-a-color);
+            margin-top: 100px;
+        }
+
+        .header-bottom-content {
+            top: 130px;
+        }
+
+        .contactUs-header {
+            height: 40vh;
+        }
+
+        .contancud-text {
+            color: var(---nav-list-li-a-color);
+            font-size: 29px !important;
+
+        }
+
+
+
+
+        .header-bottom-content-contactus {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -300px;
+        }
+
+        .contactus-list li {
+            background: var(---nav-list-li-a-color);
+            width: 30.1px;
+            height: 30.1px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contactus-list li i {
+            font-size: 15px;
+            color: #000f43;
+        }
+
+        /* .home-for {
+        height: 0vh !important;
+    } */
+
+        .two-section-img,
+        .for-vol {
+            height: 50vh !important;
+        }
+
+        .mm-li-active {
+            padding: 16px !important;
+        }
+
+        .mm {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .home-pages-footbol-formalari h2 {
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-inner-container h1 {
+            font-family: "montserrat";
+            font-size: 40px;
+            font-weight: 400;
+            color: var(---nav-list-li-a-color);
+            margin-top: 100px;
+        }
+
+        .header-bottom-content {
+            top: 130px;
+        }
+
+        .contactUs-header {
+            height: 40vh;
+        }
+
+        .contancud-text {
+            line-height: 50px;
+            color: var(---nav-list-li-a-color);
+        }
+
+
+        .two-section-img {
+            height: 40vh !important;
+        }
+
+        .two-section-img {
+            height: 35vh;
+        }
+
+        .abisolid-log {
+            padding-top: 50px;
+        }
+
+        .abisolid-log img {
+            width: 100px;
+        }
+
+        .about-header {
+            height: 40vh;
+        }
+
+        .basket-header {
+            height: 40vh;
+        }
+
+        .abisolid-vol {
+            position: absolute !important;
+            color: #f2f2f2;
+            left: 60px;
+            top: 90px;
+        }
+
+        .abisolid-vol h2 {
+            font-family: "montserrat";
+            max-width: 40px !important;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 28px;
+            max-width: 323px;
+        }
+
+        .fr-for {
+            margin-bottom: 50px !important;
+
+        }
+
+        .home-media-list {
+            left: 33% !important;
+            top: 75% !important;
+        }
+
+        .footbol-formalari {
+            height: 50vh;
+        }
+
+        .buttons-container button {
+            justify-content: center;
+        }
+
+        .isci-container {
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 30px;
+        }
+
+        .isci-car {
+            min-width: 180px;
+            background: white;
+            padding: 30px;
+        }
+
+        .daha-cox {
+            margin-top: 10px;
+            padding-bottom: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "montserrat";
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 9px;
+            color: #00105b;
+            padding: 10px;
+            border-radius: 33px;
+            background: #ffffff;
+            gap: 10px;
+        }
+
+
+        .buttons-container button {
+            padding: 5px 5px;
+            color: var(---nav-list-li-a-color);
+            background: var(---card-buttons-color);
+            display: flex;
+            align-items: center;
+            border: none;
+            font-family: "montserrat";
+            font-size: 14px;
+            gap: 2px;
+        }
+
+        .buttons-container i {
+            font-size: 10px;
+        }
+
+        .number-one,
+        .number-two {
+            font-size: 20px;
+        }
+
+        .partniyorlar-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 28px;
+        }
+
+        .partniyor-card {
+            min-width: 160px;
+            border-radius: 18px;
+            background: var(---nav-list-li-a-color);
+        }
+
+        .cap-cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 30px;
+        }
+
+        .cap-card {
+            min-width: 180px;
+        }
+
+        .text-street {
+            font-family: "montserrat";
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 35px;
+            color: #f2f2f2;
+        }
+
+
+        .part-header {
+            height: 40vh;
+        }
+
+        .footer-list li a {
+            font-family: "montserrat";
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+            color: var(---nav-list-li-a-color);
+            text-align: center;
+        }
+
+        .mm li {
+            width: 22px !important;
+            height: 22px !important;
+            font-size: 12px;
+            font-weight: 200;
+            line-height: 12px;
+            color: var(---body-color);
+        }
+
+        .home-pages-footbol-formalari h2 {
+            font-size: 20px;
+        }
+
+        .cap-card-content p {
+            text-align: center;
+            text-align: center;
+            font-family: "montserrat";
+            font-size: 14px;
+            line-height: 25px;
+            color: #00042e;
+        }
+
+        .fr-for {
+            margin-top: -100px;
+        }
+
+
+        .home-size-for {
+            height: 50vh !important;
+
+        }
+
+        .home-for {
+            height: 45vh !important;
+        }
+
+        .partniyorlar-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+            gap: 40px;
+        }
+
+        .partniyor-card {
+            min-width: 190px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    .header-bottom-content h1 {
+        font-size: 39px;
+    }
+
+    .contancud-text {
+        font-size: 40px;
+    }
+
+    .cap-header-text h3 {
+        font-size: 27px;
+        line-height: 27px;
+        padding-bottom: 5px;
+    }
+
+    .header-bottom-content p {
+        font-family: "montserrat";
+        font-size: 20px;
+        color: #ffffff;
+        max-width: 746px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .isci-container {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 30px;
+    }
+
+    .isci-car {
+        min-width: 150px;
+        background: white;
+        padding: 9px;
+    }
+
+    .card-for-profile-img {
+        max-width: 100px;
+        height: 100px;
+    }
+
+    .partniyorlar-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 40px;
+    }
+
+    .partniyor-card {
+        min-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .two-section-img,
+    .for-vol {
+        height: 22vh !important;
+    }
+
+    .top-img {
+        max-width: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .top-img img {
+        max-width: 336px !important;
+        margin-bottom: 20px;
+    }
+
+    .home-media-list {
+        left: 34% !important;
+
+        margin-bottom: -100px !important;
+    }
+
+    .home-media-list li {
+        background: var(---nav-list-li-a-color);
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-media-list li i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: var(---footer-background-color);
+        transition: all 0.5s;
+    }
+
+
+
+    .home-size-for {
+        height: 41vh !important;
+
+    }
+
+    .home-for {
+        height: 40vh !important;
+    }
+
+    .two-section-img,
+    .for-vol {
+        height: 34vh !important;
+    }
+
+}
+
+@media only screen and (max-width: 470px) {
+    .header-bottom-content h1 {
+        font-size: 27px;
+    }
+
+    .header-bottom-content p {
+        font-family: "montserrat";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 39px;
+        color: #ffffff;
+        max-width: 746px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .abisolid h2 {
+        font-size: 31px;
+    }
+
+    .abisolid p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .cap-cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    .cap-card {
+        min-width: 150px;
+        /* height: 250px; */
+    }
+
+    .cap-header-text h3 {
+        font-size: 17px !important;
+        line-height: 17px;
+    }
+
+    .cap-header-text p {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: -50px;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+    .buttons-container button {
+        font-size: 12px;
+    }
+
+    .buttons-container i {
+        font-size: 12px;
+    }
+
+    .header-head-container {
+        /* height: 45vh !important; */
+    }
+
+}
+
+
+@media only screen and (max-width: 405px) {
+    .isci-container {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 30px;
+    }
+
+    .isci-car {
+        min-width: 140px;
+        background: white;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 390px) {
+    .home-media-list {
+        left: 30% !important;
+        top: 60%;
+
+    }
+
+    .partniyorlar-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 28px;
+    }
+
+    .partniyor-card {
+        min-width: 140px;
+        border-radius: 18px;
+        background: var(---nav-list-li-a-color);
+    }
+}
+
+@media (max-width:370px) {
+    nav .navbar .nav-links {
+        max-width: 100%;
+    }
+}
+
+
+
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 70px;
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); */
+    z-index: 99;
+}
+
+nav .navbar {
+    height: 100%;
+    max-width: 1175px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 50px;
+    border: none !important;
+}
+
+.navbar .logo a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav .navbar .nav-links {
+    line-height: 70px;
+    height: 100%;
+}
+
+nav .navbar .links {
+    display: flex;
+}
+
+nav .navbar .links li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 14px;
+}
+
+nav .navbar .links li a {
+    height: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "montserrat";
+    font-size: 19px;
+    font-weight: 500;
+    color: #f2f2f2;
+}
+
+nav .navbar .links li a:hover {
+    color: var(---card-buttons-color);
+    transition: ease 0.5s;
+}
+
+.links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow {
+    transform: rotate(180deg);
+}
+
+nav .navbar .links li .arrow {
+    height: 100%;
+    width: 22px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+nav .navbar .links li .sub-menu,
+.navbar .links li .sub-menu2 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    line-height: 40px;
+    background: var(---nav-list-li-a-color);
+    border-radius: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+    display: none;
+    z-index: 2;
+}
+
+nav .navbar .links li:hover .htmlCss-sub-menu,
+nav .navbar .links li:hover .js-sub-menu {
+    display: block;
+}
+
+.navbar .links li .sub-menu li {
+    padding: 0 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar .links li .sub-menu2 li {
+    padding: 0 22px;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+}
+
+.navbar .links li .sub-menu a {
+    color: var(---body-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar .links li .sub-menu2 a {
+    color: var(---body-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.navbar .links li .sub-menu .more-arrow,
+.navbar .links li .sub-menu .more-arrow2 {
+    line-height: 10px;
+    color: var(---body-color);
+}
+
+
+.navbar .links li .sub-menu2 .more-arrow2 {
+    line-height: 40px;
+    color: var(---body-color);
+}
+
+.navbar .links li .htmlCss-more-sub-menu {
+    /* line-height: 40px; */
+}
+
+.navbar .links li .sub-menu .more-sub-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-radius: 0 4px 4px 4px;
+    z-index: 1;
+    display: none;
+}
+
+.navbar .links li .sub-menu .more-sub-menu2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-radius: 0 4px 4px 4px;
+    z-index: 1;
+    display: none;
+}
+
+.links li .sub-menu .more:hover .more-sub-menu {
+    display: block;
+}
+
+.links li .sub-menu .more:hover .more-sub-menu2 {
+    display: block;
+}
+
+.navbar .search-box {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar .search-box i {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar .search-box .input-box {
+    position: absolute;
+    right: calc(100% - 40px);
+    top: 80px;
+    height: 60px;
+    width: 300px;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+
+.navbar.showInput .search-box .input-box {
+    top: 65px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-box .input-box::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #3E8DA8;
+    right: 10px;
+    top: -6px;
+    transform: rotate(45deg);
+}
+
+.search-box .input-box input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    height: 35px;
+    width: 280px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+    border: none;
+}
+
+.navbar .nav-links .sidebar-logo {
+    display: none;
+}
+
+.bx-menu {
+    display: none;
+}
+
+.htmlCss-sub-menu,
+.sub-menu li a {
+    color: var(---nav-list-li-a-color);
+}

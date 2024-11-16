@@ -1,0 +1,23 @@
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(215, 40, 47, 0.7);
+    }
+
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(215, 40, 47, 0.5);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(215, 40, 47, 0.7);
+    }
+}
+
+.active-country {
+    animation: pulse 2s infinite;
+    /* 2 saniyede bir tekrar eder */
+    transition: transform 0.3s ease-in-out;
+    /* Yumuşak geçiş */
+}

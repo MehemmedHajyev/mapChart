@@ -1,0 +1,70 @@
+.goal-icons-content-container {
+    /* border: 2px solid red; */
+    max-width: 792px;
+    margin: 150px auto 0px auto;
+
+}
+
+.extra-bor-btm {
+    border-bottom: 1px solid #DADFE1;
+
+}
+
+.goal-icons-content-container-item {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+
+.goal-icons {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #D7282F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goal-icons svg {
+    width: 30px;
+    height: 30px;
+}
+
+.goal-content h3 {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.goal-content p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3E4145;
+    max-width: 484px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .goal-icons-content-container-item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

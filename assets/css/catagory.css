@@ -1,0 +1,71 @@
+:root {
+    --list-color: #250606;
+    --text-active-color: #D7282F;
+    ---dropdown-bg: #F6F2EE;
+    ----background-shadow: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+
+    ---footer-navig: rgba(215, 40, 47, 1);
+
+}
+
+
+.catagory-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.catagory-grid-card {
+    margin-top: 50px;
+    min-width: 250px;
+    cursor: pointer;
+}
+
+.catagory-grid-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.catagory-grid-card-content {
+    margin-top: 10px;
+    /* border: 1px solid red;gir */
+
+}
+
+.catagory-grid-card-content h2 {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.catagory-grid-card-content p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #3E4145;
+}
+
+.hover-active {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.catagory-grid-card:hover .hover-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.catagory-grid-card:hover .catagory-grid-card-content h2 {
+    color: var(--text-active-color);
+    transition: color 0.3s ease;
+}

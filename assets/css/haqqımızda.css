@@ -1,0 +1,81 @@
+:root {
+    --list-color: #250606;
+    --text-active-color: #D7282F;
+    ---dropdown-bg: #F6F2EE;
+    ----background-shadow: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #0D1117;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+    /* position relative for dropdown */
+}
+
+.value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.value:hover {
+    background-color: #21262C;
+}
+
+.dropdown {
+    display: none;
+    /* initially hidden */
+    position: absolute;
+    top: 100%;
+    /* positions below the button */
+    left: 0;
+    width: 100%;
+    /* full width of the button */
+    background-color: var(--text-active-color);
+    border-radius: 4px;
+    box-shadow: var(----background-shadow);
+    z-index: 1;
+}
+
+
+
+.dropdown .dropdown-item:hover::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--text-active-color);
+
+}
+
+.dropdown-item {
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown-item::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(---dropdown-bg);
+}
+
+.dropdown-item:hover {
+    background-color: #D7282F;
+}
+
+
+

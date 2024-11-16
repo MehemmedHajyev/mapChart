@@ -1,0 +1,245 @@
+.container-about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.main-about {
+    margin-top: 60px;
+}
+
+.card {
+    /* border: 1px solid #ccc; */
+    /* border-radius: 8px; */
+    /* padding: 20px; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.map-card {
+    max-width: 588px;
+}
+
+.map-card .map {
+    width: 100%;
+    /* background-color: #eaeaea; */
+}
+
+
+.map iframe {
+    width: 100%;
+    height: 484px;
+    /* Default yüksekliği */
+    border: 0;
+    /* Kenarlıkları kaldırmak için */
+}
+
+
+.button-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+
+.btn:hover {
+    background: #D7282F;
+    color: #FFFFFF;
+}
+
+
+
+.btn {
+    padding: 16px 20px;
+    background: #F6F2EE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #250606;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+
+.btn.active {
+    background: #D7282F;
+    color: #FFFFFF;
+}
+
+
+.about-information-container {
+    margin-top: 40px;
+}
+
+
+.about-information-container h4 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #3E4145;
+}
+
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #D7282F;
+    padding: 10px;
+
+}
+
+
+.about-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.container-about-infarmation-content {
+    margin-top: 100px;
+}
+
+.about-change-content p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.about-change-content h6 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #3E4145;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.about-form-container {
+    max-width: 700px;
+    margin: 110px auto 70px auto;
+    text-align: center;
+    /* border: 4px solid red; */
+}
+
+
+.about-form-container h2 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 39.6px;
+    text-align: center;
+}
+
+.about-form-container p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    max-width: 588px;
+    margin: 0 auto 40px auto;
+}
+
+
+
+.about-form-container input {
+    background: #F6F2EE;
+    padding: 20px 20px;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+
+}
+
+.about-form-container button {
+    background: #D7282F;
+    padding: 15px 20px;
+    width: 100%;
+    margin-top: 20px;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+
+}
+
+.about-form-container input::placeholder,
+.about-form-container textarea::placeholder {
+    color: #3E4145;
+}
+
+.about-form-container textarea {
+    width: 100%;
+    margin-top: 20px;
+    background: #F6F2EE;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+.form label {
+    display: block !important;
+}
+
+
+
+/* Responsive ayarlar */
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+    .container-about {
+        grid-template-columns: 1fr;
+        /* Ekran küçükse kartların tam genişliğini alması için */
+    }
+
+    .about-form-container {
+        margin: 50px 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .map iframe {
+        height: 300px;
+        /* Küçük ekranlar için yükseklik */
+    }
+}
+
+@media (max-width: 480px) {
+    .map iframe {
+        height: 200px;
+        /* Daha küçük ekranlar için yükseklik */
+    }
+
+    .button-container {
+        justify-content: center;
+    }
+
+
+    .main-about {
+        margin-top: 20px;
+    }
+
+    .ex-p {
+        padding: 14px;
+    }
+}
